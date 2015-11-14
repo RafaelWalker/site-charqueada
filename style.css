@@ -1,0 +1,726 @@
+@font-face {
+    font-family: "roboto";
+    src: url("http://www.charqueadacostadoabolengo.com.br/s/t/61/461/s/font/1436664776-roboto-thin.ttf") format("truetype")
+}
+
+body {
+    background-color: #4a4a4a
+}
+
+#interface {
+    margin: 0 auto;
+    padding-top: 17px;
+    width: 998px;
+    height: 100%;
+    max-width: 100%
+}
+
+#topo {
+    width: 998px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url("http://www.charqueadacostadoabolengo.com.br/s/t/61/461/s/imagens/1436650839-figueira.jpg");
+    background-size: 100% 100%;
+    height: 560px
+}
+
+.legenda {
+    position: absolute;
+    margin-top: 470px;
+    left: 50%;
+    right: 50%;
+    height: 60px;
+    width: 400px;
+    background-color: darkgray;
+    padding-left: 10px;
+    opacity: .90;
+    padding-top: 17px;
+    margin-left: -500px
+}
+
+.legenda h1 {
+    position: relative;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 24px;
+    text-align: center;
+    bottom: 10px
+}
+
+.infraEsquerda {
+    width: 50%;
+    margin: 0 auto;
+    background-image: url("http://www.charqueadacostadoabolengo.com.br/s/t/61/461/s/imagens/1436664875-infra.min.jpg");
+    background-size: 100% 100%;
+    height: 400px;
+    float: left;
+    max-width: 100%
+}
+
+h1#logo {
+    float: left;
+    width: 270px;
+    height: 120px;
+    background-image: url("http://www.charqueadacostadoabolengo.com.br/s/t/61/461/s/imagens/1436650319-logo.min.png");
+    background-size: 270px 120px;
+    background-repeat: no-repeat;
+    margin-top: -32px
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px
+}
+
+#topomenu {
+    margin-left: 33px;
+    padding-top: 15px;
+    height: 80px;
+    width: 998px;
+    border: 1px transparent solid;
+    max-width: 100%
+}
+
+#topomenu nav ul {
+    list-style: none
+}
+
+#topomenu nav ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline;
+    float: left;
+    margin-left: 15px
+}
+
+#topomenu nav ul li a {
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto"
+}
+
+nav#nav {
+    margin-top: 20px
+}
+
+#redesocial {
+    height: 80px;
+    width: 100px;
+    margin: 0 auto;
+    display: inline;
+    overflow: hidden;
+    float: left;
+    margin-left: 13px;
+    margin-top: -5px
+}
+
+#redesocial img {
+    width: 25px;
+    height: 25px;
+    padding-left: 10px
+}
+
+#middle {
+    width: 998px;
+    margin: 0 auto;
+    margin-top: 4px;
+    height: 370px;
+    max-width: 100%
+}
+
+#redesocial ul {
+    list-style: none
+}
+
+#redesocial ul li {
+    display: inline;
+    float: left
+}
+
+#menuresponsive {
+    display: none
+}
+
+#infra p {
+    position: relative;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    width: 400px;
+    left: 50px
+}
+
+#infra span {
+    text-align: justify;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    position: relative;
+    left: 50px
+}
+
+#infra button {
+    position: relative;
+    width: 280px;
+    height: 50px;
+    background-color: darkgray;
+    border: 1px white solid;
+    font-family: Roboto;
+    color: #fff;
+    left: 100px;
+    top: 30px
+}
+
+#infra button a {
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    font-family: Roboto;
+    font-size: 20px
+}
+
+#infraLista {
+    margin-left: 50px;
+    margin-top: 10px
+}
+
+#infra ul li {
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    list-style-type: circle;
+    padding: 4px
+}
+
+#infra {
+    float: right;
+    display: inline;
+    overflow: hidden;
+    width: 50%;
+    height: 380px;
+    padding-top: 20px;
+    background: darkgray
+}
+
+#infra a {
+    margin-left: 80px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #fff
+}
+
+#infra h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    bottom: 10px
+}
+
+#maps {
+    width: 998px;
+    margin: 0 auto;
+    margin-top: 3px;
+    height: 800px;
+    max-width: 100%;
+    display: inline-block
+}
+
+.maps {
+    width: 998px;
+    max-width: 100%;
+    height: 800px
+}
+
+#conteudo_form {
+    position: relative;
+    width: 300px;
+    z-index: 999;
+    top: -680px;
+    margin-left: 10px
+}
+
+#formulario_principal {
+    background-color: darkgray;
+    width: 300px;
+    height: 400px;
+    opacity: .8;
+    margin: 0 auto;
+    float: left
+}
+
+#imagem {
+    padding-top: 5px;
+    width: 300px;
+    height: 150px;
+    background-image: url("../imagens/localizaÃ§Ã£o.JPG");
+    background-repeat: no-repeat;
+    background-size: 300px 220px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px
+}
+
+#formulario {
+    width: 270px;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+    margin-left: 20px;
+    display: inline;
+    margin-top: 10px;
+    overflow: hidden
+}
+
+#formulario label {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: 12px;
+    margin-left: -40px
+}
+
+#formulario ul {
+    list-style: none;
+    margin-top: 10px
+}
+
+#formulario ul li {
+    padding-top: 5px
+}
+
+#formulario span {
+    text-align: justify;
+    width: 255px;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px
+}
+
+#formulario input {
+    width: 255px;
+    height: 25px;
+    border: 0;
+    margin-top: 10px;
+    margin-left: -40px
+}
+
+#formulario textarea {
+    width: 255px;
+    height: 40px;
+    border: 0;
+    margin-top: 10px;
+    margin-left: -40px
+}
+
+#formulario button {
+    float: right;
+    margin-right: 20px;
+    padding: 3px;
+    border: 1px white solid;
+    margin-top: 5px;
+    color: #fff;
+    font-family: Roboto;
+    background-color: darkgray
+}
+
+#formulario button a {
+    font-size: 14px;
+    font-family: Roboto;
+    color: white
+}
+
+#eventos {
+    margin: 0 auto;
+    width: 998px;
+    margin-top: 4px;
+    background: #000;
+    background-size: 100% 100%;
+    height: 460px;
+    max-width: 100%
+}
+
+#eventos h1 {
+    text-align: center;
+    color: #fff;
+    font-family: Roboto;
+    margin-top: 33px;
+    padding-top: 20px;
+    font-size: 24px
+}
+
+#social {
+    margin: 0 auto;
+    margin-top: 50px
+}
+
+#galeria {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background: #a9a9a9;
+    display: table;
+    padding-top: 10px;
+    padding-bottom: 25px
+}
+
+#galeria h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: Roboto;
+    color: white
+}
+
+.galeriaConteudo {
+    border: 0 solid blue;
+    float: left;
+    display:;
+    overflow: hidden;
+    padding-left: 8px
+}
+
+#galeriaDentro {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 35px;
+    margin-top: 30px
+}
+
+.galeriaConteudo a {
+    outline: 0;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: "Roboto";
+    color: #fff
+}
+
+.figure {
+    width: 220px;
+    height: 200px
+}
+
+.demo {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 20px
+}
+
+.demo ul li img {
+    width: 100%;
+    height: 350px
+}
+
+footer {
+    padding-top: 20px;
+    width: 990px;
+    max-width: 100%;
+    height: 80px;
+    background-color: #4a4a4a
+}
+
+footer h1 {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: white;
+    text-align: left
+}
+
+footer h2 {
+    position: relative;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+    bottom: 6px
+}
+
+footer h3 {
+    position: relative;
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+    float: right;
+    bottom: 80px
+}
+
+footer picture img {
+    float: right;
+    position: relative;
+    bottom: 90px;
+    right: 5px
+}
+
+.desenvolvimento {
+    text-align: right;
+    float: right;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: white;
+    margin-top: -20px
+}
+
+#historia {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    background-image: url("http://www.charqueadacostadoabolengo.com.br/s/t/61/461/s/imagens/1436650735-fundook.min.png");
+    width: 800px;
+    height: 1780px;
+    left: 20%;
+    right: 80%;
+    margin-left: -320px;
+    top: 50px;
+    bottom: 2px
+}
+
+#historia h1 {
+    font-family: Roboto;
+    border: 1px #000 solid;
+    width: 460px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 150px
+}
+
+#historia h2 {
+    font-family: Roboto;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center
+}
+
+.esquerda {
+    padding: 5px;
+    width: 380px;
+    text-align: justify;
+    float: left
+}
+
+.direita {
+    padding: 5px;
+    width: 380px;
+    text-align: justify;
+    float: right
+}
+
+.esquerda p {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.direita p {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px
+}
+
+#segundo {
+    padding-top: 375px
+}
+
+#terceiro {
+    padding-top: 375px
+}
+
+fieldset {
+    position: relative;
+    width: 770px;
+    text-align: center;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent
+}
+
+@media screen and (max-width: 600px) {
+    #interface {
+        width: 100%
+    }
+
+    #middle {
+        width: 100%;
+        display: block
+    }
+
+    .infraEsquerda {
+        float: left;
+        width: 100%;
+        height: 350px
+    }
+
+    #infra {
+        float: left;
+        width: 100%
+    }
+
+    #topo {
+        height: 350px
+    }
+
+    #infraLista {
+        margin-left: 20px
+    }
+
+    h1#logo {
+        display: none
+    }
+
+    h1#logo2 {
+        width: 270px;
+        height: 120px;
+        background-image: url("http://www.charqueadacostadoabolengo.com.br/s/t/61/461/s/imagens/1436650319-logo.min.png");
+        background-size: 270px 120px;
+        background-repeat: no-repeat;
+        margin-top: -32px
+    }
+
+    #infra button {
+        position: relative;
+        width: 220px;
+        height: 50px;
+        background-color: darkgray;
+        border: 1px white solid;
+        font-family: Roboto;
+        color: #fff;
+        font-size: 12px;
+        left: 50px;
+        top: 20px
+    }
+
+    #infra button a {
+        font-size: 12px
+    }
+
+    #infra p {
+        position: relative;
+        color: white;
+        font-family: Roboto;
+        font-size: 16px;
+        left: 10px
+    }
+
+    #maps {
+        margin-top: 200px
+    }
+
+    #conteudo_form {
+        margin-top: 60px;
+        display: block
+    }
+
+    #evento {
+        display: block;
+        float: left
+    }
+
+    #nav {
+        display: none
+    }
+
+    #menuresponsive {
+        display: block;
+        width: 100%;
+        text-align: center
+    }
+
+    .demo ul li img {
+        width: 100%;
+        height: 220px
+    }
+
+    .legenda {
+        position: absolute;
+        margin-top: 470px;
+        left: 50%;
+        right: 50%;
+        height: 50px;
+        width: 300px;
+        background-color: darkgray;
+        padding-left: 10px;
+        opacity: .90;
+        padding-top: 17px;
+        margin-left: -160px
+    }
+
+    .legenda h1 {
+        position: relative;
+        color: #fff;
+        font-family: "Roboto";
+        font-size: 16px;
+        text-align: center;
+        bottom: 10px
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    #interface {
+        width: 100%
+    }
+
+    #logo {
+        margin: 0 auto;
+        width: 400px
+    }
+
+    h1#logo {
+        display: none
+    }
+
+    h1#logo2 {
+        margin: 0 auto;
+        width: 270px;
+        height: 120px;
+        background-image: url("http://www.charqueadacostadoabolengo.com.br/s/t/61/461/s/imagens/1436650319-logo.min.png");
+        background-size: 270px 120px;
+        background-repeat: no-repeat;
+        margin-top: -32px
+    }
+
+    #nav {
+        display: none
+    }
+
+    #menuresponsive {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 40px
+    }
+}
+
+}
+@media screen and (min-width: 600px) {
+    #interface {
+        width: 100%
+    }
+
+    #nav {
+        display: none
+    }
+
+    h1#logo {
+        display: none
+    }
+
+    h1#logo2 {
+        margin: 0 auto;
+        width: 270px;
+        height: 120px;
+        background-image: url("http://www.charqueadacostadoabolengo.com.br/s/t/61/461/s/imagens/1436650319-logo.min.png");
+        background-size: 270px 120px;
+        background-repeat: no-repeat;
+        margin-top: -32px
+    }
+
+    #menuresponsive {
+        display: block;
+        width: 300px;
+        text-align: center;
+        margin-top: 40px
+    }
+}

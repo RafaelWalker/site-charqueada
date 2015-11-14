@@ -1,0 +1,159 @@
+body {
+    font-family: verdana;
+    font-size: 15px
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ccc;
+    text-decoration: none
+}
+
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #000;
+    display: none
+}
+
+#boxes .window {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 440px;
+    height: 200px;
+    display: none;
+    z-index: 9999;
+    padding: 20px
+}
+
+#boxes #dialog {
+    width: 740px;
+    height: 603px;
+    padding: 10px
+}
+
+#boxes1 {
+    top: 250px;
+    position: absolute
+}
+
+#boxes #dialog1 {
+    width: 37px;
+    height: 203px
+}
+
+#dialog1 .d-header {
+    background: url(login-header.png) no-repeat 0 0 transparent;
+    width: 375px;
+    height: 150px
+}
+
+#dialog1 .d-header input {
+    position: relative;
+    top: 60px;
+    left: 100px;
+    border: 3px solid #ccc;
+    height: 22px;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 4px
+}
+
+#dialog1 .d-blank {
+    float: left;
+    background: url(login-blank.png) no-repeat 0 0 transparent;
+    width: 267px;
+    height: 53px
+}
+
+#dialog1 .d-login {
+    float: left;
+    width: 108px;
+    height: 53px
+}
+
+#boxes #dialog2 {
+    background: url(notice.png) no-repeat 0 0 transparent;
+    width: 326px;
+    height: 229px;
+    padding: 50px 0 20px 25px
+}
+
+#boxes1 .window {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 440px;
+    height: 200px;
+    display: none;
+    z-index: 9999;
+    padding: 20px
+}
+
+#boxes1 #dialog {
+    width: 740px;
+    height: 540px;
+    padding: 10px;
+    border: 1px solid white
+}
+
+#boxes1 #dialog1 {
+    width: 375px;
+    height: 203px;
+    margin-top: 120%
+}
+
+#dialog1 .d-header {
+    background: url(login-header.png) no-repeat 0 0 transparent;
+    width: 375px;
+    height: 150px
+}
+
+#dialog1 .d-header input {
+    position: relative;
+    top: 60px;
+    left: 100px;
+    border: 3px solid #ccc;
+    height: 22px;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 4px
+}
+
+#dialog1 .d-blank {
+    float: left;
+    background: url(login-blank.png) no-repeat 0 0 transparent;
+    width: 267px;
+    height: 53px
+}
+
+#dialog1 .d-login {
+    float: left;
+    width: 108px;
+    height: 53px
+}
+
+#boxes1 #dialog2 {
+    background: url(notice.png) no-repeat 0 0 transparent;
+    width: 326px;
+    height: 229px;
+    padding: 50px 0 20px 25px
+}
+
+.close {
+    position: relative;
+    top: 530px;
+    left: 180px;
+    display: block;
+    text-align: right;
+    color: white
+}
